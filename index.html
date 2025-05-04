@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Карцев Алексей</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Lato, Arial, sans-serif;
+            background-color: #1c2526;
+            color: #ffffff;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 2em 1em;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 1em;
+            border-bottom: 1px solid #444;
+            margin-bottom: 2em;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 1.5em;
+            border: 2px solid #4CAF50;
+            object-fit: cover;
+        }
+        header .header-text {
+            flex: 1;
+        }
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+            font-weight: 700;
+        }
+        header h2 {
+            font-size: 1.5em;
+            margin: 0.25em 0;
+            color: #bbbbbb;
+            font-weight: 500;
+        }
+        header p {
+            margin: 0.5em 0;
+            font-size: 1em;
+        }
+        header a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        section h3 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 1em;
+            color: #4CAF50;
+            text-transform: uppercase;
+        }
+        .job {
+            margin-bottom: 1.5em;
+        }
+        .job h4 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin: 0.5em 0 0.25em;
+            color: #ffffff;
+        }
+        .job p {
+            font-size: 1em;
+            color: #bbbbbb;
+            margin: 0.25em 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0.5em 0;
+        }
+        ul li {
+            position: relative;
+            padding-left: 1.5em;
+            margin-bottom: 0.5em;
+            font-size: 1em;
+        }
+        ul li:before {
+            content: "•";
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        .tools {
+            font-style: italic;
+            color: #bbbbbb;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1em;
+            }
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            header img {
+                margin-right: 0;
+                margin-bottom: 1em;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+            header h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile-photo.jpg" alt="Фотография Алексея Карцева">
+            <div class="header-text">
+                <h1>Карцев Алексей</h1>
+                <h2>QA Engineer</h2>
+                <p>Местоположение: Дананг, Вьетнам</p>
+                <p>Email: <a href="mailto:Karchev32@gmail.com">Karchev32@gmail.com</a></p>
+                <p>Telegram: <a href="https://t.me/Alexsolar01">@Alexsolar01</a></p>
+                <p>Веб-сайт: <a href="https://getaroof.online">getaroof.online</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aleksei-kartsev">Aleksei Kartsev</a></p>
+            </div>
+        </header>
+
+        <section class="profile">
+            <h3>Обо мне</h3>
+            <p>QA-инженер с аналитическим складом ума. Обладаю исследовательским подходом к решению задач и готовностью к экспериментам. Стремлюсь не только находить дефекты, но и помогать улучшать качество продукта на всех этапах создания. В свободное время совмещаю путешествия и изучение новых языков с уютными вечерами в кругу друзей, настольными играми и гитарой у костра.</p>
+        </section>
+
+        <section class="experience">
+            <h3>Опыт работы</h3>
+            <div class="job">
+                <h4>QA Engineer</h4>
+                <p>Июнь 2024 г. – настоящее время | Get a Roof | Москва, <a href="https://getaroof.online">getaroof.online</a></p>
+                <p>Сервис Get a Roof – TravelTech веб-сервис с кроссплатформенной адаптацией и smart-клиент серверной архитектурой, перспективная альтернатива Booking и Agoda.</p>
+                <p><strong>Цели и задачи:</strong></p>
+                <ul>
+                    <li>Мануальное тестирование (smoke testing, тестирование локализации, регрессионное, интеграционное, E2E).</li>
+                    <li>Кросс-браузерное и кросс-платформенное тестирование веб- и мобильного приложения.</li>
+                    <li>Разработка и выполнение тест-кейсов для полного покрытия функциональности.</li>
+                    <li>Регистрация и ведение баг-репортов в Jira.</li>
+                </ul>
+                <p><strong>Мой вклад в проект:</strong></p>
+                <ul>
+                    <li>Привёл документацию к единому стандартному виду.</li>
+                    <li>Внедрил стандарты составления баг-репортов.</li>
+                    <li>Настроил тестовое окружение.</li>
+                    <li>Построил чёткий график проведения тестов, что повысило прозрачность и скорость тестирования.</li>
+                    <li>Активно способствовал повышению качества продукта для конечных пользователей, предложив идеи по улучшению опыта пользователей, которые были успешно внедрены в проект.</li>
+                </ul>
+                <p class="tools"><strong>Стек и инструменты:</strong> Jira, Chrome DevTools, Postman, Movavi Screen Recorder, Android Studio, Emmet Review, Figma.</p>
+            </div>
+            <div class="job">
+                <h4>Инженер по охране труда</h4>
+                <p>Апрель 2012 г. – Октябрь 2023 г. | ST-ENERGY</p>
+                <p>Прошёл путь от менеджера по продажам (Дом.ру) до ведущего инженера в энергетической компании (солнечные электростанции), включая позицию эксперта СОУТ.</p>
+                <ul>
+                    <li>Внедрял инновационные методы для повышения эффективности и производительности на всех этапах.</li>
+                    <li>Как менеджер – создавал команды с нуля, неоднократно признавался лучшим менеджером/наставником месяца.</li>
+                    <li>Как инженер отвечал за безопасность более 250 человек, проводил все виды инструктажей, за время работы не было ни одного несчастного случая.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h3>Навыки</h3>
+            <ul>
+                <li>Функциональное и нефункциональное тестирование</li>
+                <li>Тестирование мобильных приложений</li>
+                <li>Тестирование пользовательского интерфейса</li>
+                <li>Кросс-браузерное и кросс-платформенное тестирование</li>
+                <li>Организаторские навыки, управление командой</li>
+                <li>Инструменты: Jira, Chrome DevTools, Postman, Movavi Screen Recorder, Android Studio, Emmet Review, Figma</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h3>Образование</h3>
+            <div class="job">
+                <h4>Бакалавриат, Менеджмент государственного и муниципального управления</h4>
+                <p>Российская академия народного хозяйства и государственной службы при Президенте РФ</p>
+                <p>Специальность «Управление персоналом» | 2020 г.</p>
+            </div>
+            <div class="job">
+                <h4>Бакалавриат, Безопасность технологических процессов и производства</h4>
+                <p>Брянский Государственный Аграрный Университет, Инженерно-технологический факультет</p>
+                <p>2016 г.</p>
+            </div>
+            <h4>Повышение квалификации, курсы</h4>
+            <ul>
+                <li>Тестирование ПО. Теория + Практика | Автор курса – Артём Русов | 2024 г.</li>
+                <li>Вселенная тестирования, или Как стать тестировщиком | Stepik.org, «Казыки» | 2024 г.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
